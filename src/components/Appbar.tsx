@@ -14,10 +14,10 @@ const Appbar = () => {
                     <img className='h-10 w-20 pt-2 ml-3' src="youtubelogo.svg" />
                 </div>
             </div>
-            <div className='grid-span-1 pt-3 place-items-center'>
+            <div className='hidden sm:block grid-span-1 pt-3 place-items-center'>
                 <SearchBar />
             </div>
-            <div className='grid-span-1 flex justify-end place-items-center'>
+            <div className='hidden lg:block grid-span-1 flex justify-end place-items-center'>
                 <div className='flex'>
                     <div className='border border-black pt-2 pr-5' >
                         <button className='text-white bg-slate-800 p-1 rounded-2xl'>+ Create</button>
